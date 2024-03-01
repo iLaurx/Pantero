@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ebe9e9;
+}
+
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    position: relative;
+    justify-content: space-between;
+    background-color: #ffffff00;
+    background-image: url(img/wood-header.png);
+    padding: 0px;
+    text-align: center;
+}
+
+.carrito {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.nav-links {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.776);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.nav-links a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: xx-large;
+}
+
+.title-cont h1 {
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ebe9e9;
+}
+
+.text {
+    width: 50%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    position: relative;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    width: 250px;
+}
+
+.anunciement {
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    margin: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-position: cover;
+    color: #000000;
+    box-shadow: 0 20px 20px rgb(0, 0, 0);
+}
+
+.anunciement p {
+    color: #ffffff;
+}
+
+/* Estilos específicos para el texto */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #131313;
+}
+
+/* Estilos específicos para la imagen */
+img {
+    max-width: 100%;
+    display: box;
+}
+
+footer {
+    background-color: #131313;
+    position: absolute;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #f1f1f1;
+    align-items: center;
+    text-align: center;
+}
+
+footer a img {
+    width: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+footer p{
+    color: #ebe9e9;
+}
+
+footer H3 {
+    color: #f1f1f1;
+    font-size: 15px;
+    text-align: center;
+}
+
+.links a img{
+    width: 50px;
+}
